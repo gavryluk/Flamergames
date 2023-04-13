@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #eee;
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+    flex-basis: 30%;
+}
+
+article:hover {
+    cursor: pointer; /* змінює форму курсора на вказівник */
+    text-decoration: underline; /* підкреслює текст */
+}  
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* або будь-яке інше значення ширини */
+    margin: 0 auto; /* центруємо контент на сторінці */
+  }
+  
+  .main-content {
+    width: 80%;
+    float: right; /* вирівнюємо основний вміст праворуч */
+  }
+  
+  .sidebar {
+    width: 20%;
+    float: left; /* вирівнюємо вміст з посиланнями ліворуч */
+  }
+
+.bold
+{
+    font-weight: bold;
+}
